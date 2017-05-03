@@ -5,9 +5,11 @@ window.onload = function(){
 };
 
 function measure(){
+    appendLi("window.screen.height", window.screen.height);
+    appendLi("window.screen.width", window.screen.width);
+    appendLi("window.devicePixelRatio -- ", window.devicePixelRatio);
     appendLi("window.screenX -- ", window.screenX);
     appendLi("window.screenY -- ", window.screenY);
-    appendLi("window.devicePixelRatio -- ", window.devicePixelRatio);
 }
 
 function appendLi(){

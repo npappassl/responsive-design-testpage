@@ -19,3 +19,7 @@ function appendLi(){
     }
     ul.appendChild(li);
 }
+window.onresize = function() {
+    ul.innerHTML = "";
+    measure();
+}

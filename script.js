@@ -8,8 +8,13 @@ function measure(){
     appendLi("window.screen.height", window.screen.height);
     appendLi("window.screen.width", window.screen.width);
     appendLi("window.devicePixelRatio -- ", window.devicePixelRatio);
+    appendLi("window.screen.availWidth --", window.screen.availWidth);
+    appendLi("window.screen.availHeight --", window.screen.availHeight);
     appendLi("window.screenX -- ", window.screenX);
     appendLi("window.screenY -- ", window.screenY);
+    appendLi("window.screen.availTop --", window.screen.availTop);
+    appendLi("window.screen.availLeft --", window.screen.availLeft);
+
 }
 
 function appendLi(){
